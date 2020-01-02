@@ -30,7 +30,7 @@ pip install hprof2flamegraph
 > use hprof2flamegraph && in hprof2flamegraph dir
 
 ```code
-hprof2flamegraph/venv/bin/stackcollapse-hpl logs/log.hpl > out/output-folded.txt
+hprof2flamegraph/venv/bin/stackcollapse-hprof tmp/heapdump*.hprof > out/output-folded.txt
 ```
 
 * generate flame graph
