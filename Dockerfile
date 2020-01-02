@@ -1,4 +1,4 @@
-FROM openjdk:11-jre
+FROM openjdk:11-stretch
 LABEL AUTHOR="dalongrong"
 LABEL EMAIL="1141591465@qq.com"
 WORKDIR /
